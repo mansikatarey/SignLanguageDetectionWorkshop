@@ -1,4 +1,6 @@
 # Sign Language Detector
+![image](https://github.com/user-attachments/assets/eadbfa9f-97d2-480c-9202-7750811c784f)
+
 
 ## Overview
 This project demonstrates how to build a computer vision model to detect sign language gestures using **OpenCV**, **MediaPipe**, and **scikit-learn**. The model identifies hand gestures from images or video frames and maps them to corresponding sign language characters.
@@ -21,4 +23,3 @@ This project demonstrates how to build a computer vision model to detect sign la
 ### 4. Model Testing
 - **Accuracy**: Evaluate the model's accuracy on a validation dataset.
 
-![image](https://github.com/user-attachments/assets/eadbfa9f-97d2-480c-9202-7750811c784f)
