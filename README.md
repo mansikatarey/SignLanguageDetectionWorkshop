@@ -6,7 +6,7 @@ This project demonstrates how to build a computer vision model to detect sign la
 ## Steps to Build the Model
 
 ### 1. Data Collection
-- **Capture Hand Gestures**: Use OpenCV and MediaPipe to capture hand gestures through the webcam or load images/videos for training.
+- **Capture Hand Gestures**: Use OpenCV and MediaPipe to capture hand gestures through the webcam.
 - **Key Points Extraction**: MediaPipe is used to extract hand landmarks (key points) from each frame, representing the position and orientation of the hand.
 
 ### 2. Data Preprocessing
@@ -18,6 +18,7 @@ This project demonstrates how to build a computer vision model to detect sign la
 - **Choose Classifier**: Use scikit-learn to build a classifier (e.g., Random Forest, Support Vector Machine) to classify the hand gestures based on the extracted features.
 - **Train the Model**: Feed the normalized hand landmarks and corresponding labels into the model for training.
 
-### 4. Model Evaluation
+### 4. Model Testing
 - **Accuracy**: Evaluate the model's accuracy on a validation dataset.
-- **Cross-Validation**: Optionally, use cross-validation to tune hyperparameters and improve performance.
+
+![image](https://github.com/user-attachments/assets/eadbfa9f-97d2-480c-9202-7750811c784f)
